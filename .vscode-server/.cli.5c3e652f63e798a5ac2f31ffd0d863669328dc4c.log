@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:34455
+[2025-03-06 15:29:17] info Disposed of connection to running server.
+looking for token ed61122b-7212-4ae7-804a-94928748b3d4, got Some("ed61122b-7212-4ae7-804a-94928748b3d4")
+[2025-03-06 15:29:18] info Checking /root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/log.txt and /root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/pid.txt for a running server...
+[2025-03-06 15:29:18] info Starting server...
+[2025-03-06 15:29:18] info Server started

@@ -1,0 +1,27 @@
+2025-03-05 21:51:14.037 [info] 
+
+
+
+
+2025-03-05 21:51:14.037 [info] Extension host agent started.
+2025-03-05 21:51:14.038 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-03-05 21:51:14.046 [info] [<unknown>][99c74dda][ExtensionHostConnection] New connection established.
+2025-03-05 21:51:14.082 [info] [<unknown>][3f22908c][ManagementConnection] New connection established.
+2025-03-05 21:51:14.093 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-03-05 21:51:14.229 [info] [<unknown>][99c74dda][ExtensionHostConnection] <14107> Launched Extension Host Process.
+2025-03-05 21:56:13.876 [info] New EH opened, aborting shutdown
+2025-03-05 22:01:14.422 [info] [<unknown>][d7aabc01][ManagementConnection] New connection established.
+2025-03-05 22:01:14.427 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2025-03-05 22:01:14.432 [info] [<unknown>][82d960d5][ExtensionHostConnection] New connection established.
+2025-03-05 22:01:14.443 [info] [<unknown>][82d960d5][ExtensionHostConnection] <14520> Launched Extension Host Process.
+2025-03-05 22:02:39.503 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-03-05 22:02:39.507 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-03-05 22:06:14.776 [info] [<unknown>][99c74dda][ExtensionHostConnection] <14107> Extension Host Process exited with code: 0, signal: null.
+2025-03-05 22:49:34.759 [info] [<unknown>][d7aabc01][ManagementConnection] The client has reconnected.
+2025-03-05 22:49:34.762 [info] [<unknown>][82d960d5][ExtensionHostConnection] The client has reconnected.
+2025-03-05 23:07:05.185 [info] [<unknown>][d7aabc01][ManagementConnection] The client has reconnected.
+2025-03-05 23:12:05.392 [info] [<unknown>][82d960d5][ExtensionHostConnection] <14520> Extension Host Process exited with code: 0, signal: null.
+2025-03-05 23:12:05.393 [info] Last EH closed, waiting before shutting down
+2025-03-05 23:17:05.396 [info] Last EH closed, shutting down
