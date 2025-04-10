@@ -84,3 +84,6 @@ if len(char_inp) == 1 and len(char_inp2) == 1:
 
 else:
     print("Character input is more than 1")
+    
+    
+    #changed somethign 
