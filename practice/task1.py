@@ -11,4 +11,15 @@
 #     return True
 #   else:
 #     return False
+<<<<<<< HEAD
 #changed 
+=======
+
+
+
+# def near_hundred(n):
+#     if abs(100 - n) <= 10 or abs(200 - n) <= 10:
+#         return True 
+#     else:
+#         return False
+>>>>>>> 8a8f9a0 (add practice)
