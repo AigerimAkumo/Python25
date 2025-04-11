@@ -11,7 +11,7 @@
 #     return True
 #   else:
 #     return False
-<<<<<<< HEAD
+
 #changed 
 =======
 
@@ -22,4 +22,4 @@
 #         return True 
 #     else:
 #         return False
->>>>>>> 8a8f9a0 (add practice)
+
