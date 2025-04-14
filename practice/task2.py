@@ -17,6 +17,15 @@ y = sample(x)
 print(y)   # 4
 
 
+def velocity(x)  :
+  return speed + x
+
+speed=10
+new_speed=velocity(10)
+new_speed=velocity(speed)
+print(new_speed)        #20
+
+
 #####################################################################
 
 
@@ -148,9 +157,40 @@ for train in train_speed:
 }
 for train in train_speed.values():
     print(str(train)[0], end="") # 233
-    
-    
-    
+
+
+
+def runner(brand, model="", year=2021, convertible=True):
+    return brand + model + str(convertible)
+
+print(runner("Volta", "Tension", 2019)[-1])    # [-1] returns e
+
+
+
+
+def runner(brand, model="", year=2021, convertible=True):
+    return brand  # Only return the brand
+
+print(runner("Volta", "Tension", 2019))     # Volta
+
+
+
+
+def runner(brand, model="", year=2021, convertible=True):
+    return brand + " " + model + " " + str(year)
+
+print(runner("Volta", "Tension", 2019))     # Volta Tension 2019
+
+
+
+
+def runner(brand, model="", year=2021, convertible=True):
+    return convertible
+
+print(runner("Volta", "Tension", 2019, False))      # False
+
+
+
     
 ###############################################################################    
     
@@ -325,6 +365,23 @@ variable=-2
 do_the_mess(the_list)  # 0
 print(the_list[0])       # 0
 
+
+
+
+
+def do_the_mess(parameter):
+    global variable
+    variable += parameter[0]
+    return variable
+
+the_list=[x for x in range(2, 3)] 
+variable= 0
+do_the_mess(the_list) 
+print(variable)         # 2
+
+
+
+
 #########################################################
 
 
@@ -407,4 +464,13 @@ level has a default value, so it's optional.
 
 B (delta(level, size=0))
 C (alpha(level=100))
+
+
+
+# What is true about exceptions in Python? (Choose two.)
+# A. Not more than one except branch can be executed inside one try-except block.
+# B. According to Python terminology, exceptions are raised.
+# C. According to Python terminology, exceptions are thrown.
+# D. Python’s philosophy encourages developers to make all possible efforts to protect the program from the occurrence of an exception.
+# Correct Answer: B D
 
