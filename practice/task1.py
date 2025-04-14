@@ -207,3 +207,11 @@
 # C. The None value may not be used outside functions.
 # D. The None value can be assigned to variables.
 # Correct Answer: C
+
+
+# What is true about tuples? (Choose two.)
+# A. Tuples can be concatenated using the + operator
+# B. An empty tuple can be written as tuple ().
+# C. Each element of a tuple must be unique.
+# D. If tup is a non-zero-length tuple, del tup[0] will delete its first element.
+# Correct Answer: A B
