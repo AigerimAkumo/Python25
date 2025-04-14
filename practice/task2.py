@@ -286,7 +286,7 @@ def do_the_mess(parameter):
     parameter=[variable]
     return parameter
 
-the_list=[x for x in range(0,1)]
+the_list=[x for x in range(0,1)]  # [0]
 variable=-2
-do_the_mess(the_list)
-print(the_list[0])
+do_the_mess(the_list)  # 0
+print(the_list[0])       # 0
