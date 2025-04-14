@@ -410,7 +410,7 @@ def iterate(end,foo = 0):
     if end > 0:
         foo = iterate(end-1, foo+end)
         return foo
-print(iterate(2))        
+print(iterate(2))        # Output: 3
 
 
 
@@ -420,7 +420,7 @@ rates = (1.2, 1.4, 1.0)
 new = rates[3:]
 for rate in rates[-2:]:
     new+=(rate,)
-print(len(new))    
+print(len(new))    # 2
 
 # You started with an empty tuple new.
 # Then you added the last two elements of rates to new.
