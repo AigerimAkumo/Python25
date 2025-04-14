@@ -340,6 +340,23 @@ print(len(data [3:8]))  # 4
 ## (1, 2), (1, 2), (1, 2), (1, 2))
 
 
+
+collection = []
+collection.append(1)
+collection.insert(0,2)
+duplicate = collection
+duplicate.append(3)
+print(len(collection) + len(duplicate)) # 6
+
+
+def iterate(end,foo = 0):
+    if end > 0:
+        foo = iterate(end-1, foo+end)
+        return foo
+print(iterate(2))        
+
+
+
 ##############################################################
 
 rates = (1.2, 1.4, 1.0)
@@ -351,4 +368,43 @@ print(len(new))
 # You started with an empty tuple new.
 # Then you added the last two elements of rates to new.
 # The length of the final tuple is 2.
+
+
+##############################################################
+
+# Which of the following functions can be invoked without arguments?
+
+# A. def gamma(level):
+This function expects 1 value called level.
+
+❌ You cannot run it without arguments.
+
+❌ You cannot run it with 2 arguments (it only takes 1).
+
+# pass
+
+
+# B. def delta(level, size = 0):
+This function expects at least 1 value: level.
+
+size is optional (because it has a default =0)
+
+✅ You can call it with 2 arguments.
+
+❌ You cannot call it with 0 arguments.
+    
+# pass
+
+    
+# C. def alpha (level=100):
+level has a default value, so it's optional.
+
+✅ You can call it without arguments.
+
+❌ You cannot call it with 2 arguments (only 1 parameter exists).    
+# pass
+
+
+B (delta(level, size=0))
+C (alpha(level=100))
 
