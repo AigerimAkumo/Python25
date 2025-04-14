@@ -246,3 +246,69 @@
 # a sequence of bits which forms a series of machine instructions.
 
 ## a sequence of bits which encodes machine instructions
+
+
+
+
+
+
+
+
+# x=0
+# while x < 6:
+#     x += 1
+#     if x % 2 == 0:
+#         continue
+#     print('*') #three
+
+
+
+# x=0
+# while x < 6:
+#     x += 1
+#     if x % 2 == 0:
+#         break
+#     print('*') # one
+
+
+
+# n=1
+# if n==1:
+#     print('*')
+# if n==True:
+#     print('**')
+# if n==False:
+#     print('***')        #two
+    
+    
+    
+    
+#    Arrange the code boxes in the correct positions in order to obtain a loop which executes 
+# its body with the level variable going through values 5, 3 ,
+# and 1 (in the same order).
+
+
+# total=0
+# for i in range(4):
+#     if 2 * i > 4:
+#         total+=1
+#     else:
+#         total+=1
+#     print(total)        # 4
+    
+   
+    
+# total = 0
+# for i in range(4):         # i = 0, 1, 2, 3
+#     if 2 * i >= 4:         # now true for i = 2 and 3
+#         total += 1
+# print(total)               # prints 2
+    
+    
+# def velocity(x)  :
+#   return speed + x
+
+# speed=10
+# new_speed=velocity(10)
+# new_speed=velocity(speed)
+# print(new_speed) # 20
