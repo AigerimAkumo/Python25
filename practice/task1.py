@@ -215,3 +215,11 @@
 # C. Each element of a tuple must be unique.
 # D. If tup is a non-zero-length tuple, del tup[0] will delete its first element.
 # Correct Answer: A B
+
+
+# Which of the following are the names of Python passing argument styles? (Choose two.)
+# A. indicatory
+# B. positional
+# C. reference
+# D. keyword
+# Correct Answer: B D
